@@ -28,7 +28,11 @@ Ce mini-projet tente d'impl\'e9menter les commandes pr\'e9sent\'e9es dans l'arti
 \
 J'ai d\'e9velopp\'e9 le projet sous Ubuntu 11.10 et la libusb-1.0.8. Le code devrait normalement \'eatre portable sur tout autre version de Linux, probablement Unix et Mac OS X. Il devra \'eatre adapt\'e9 sous Windows pour prendre en compte la version port\'e9e de la libusb pour l'OS de Microsoft.\
 \
-Une fois les sources t\'e9l\'e9charg\'e9es et la libusb install\'e9e (voir tutoriel ci-dessous), il suffit d'utiliser le fichier 
+Une fois les sources t\'e9l\'e9charg\'e9es et la libusb install\'e9e (voir tutoriel ci-dessous), vous devez \'e9ditez le fichier main.c pour renseigner le 
+\i vendor_id
+\i0  et le 
+\i product_id
+\i0  de votre t\'e9l\'e9phone. Il suffit ensuite d'utiliser le fichier 
 \i Makefile
 \i0 , de brancher votre t\'e9l\'e9phone Android et de lancer l'ex\'e9cutable g\'e9n\'e9r\'e9. Il vous dira alors si votre t\'e9l\'e9phone (qui s'appelera 
 \i Teos
@@ -62,9 +66,8 @@ On peut t\'e9l\'e9charger l'archive des sources de la biblioth\'e8que \'e0 l'adr
 \b0 \cf0 \
 \
 Une fois la biblioth\'e8que t\'e9l\'e9charg\'e9e, on se place dans le dossier contenant l'archive et  on l'extrait avec les deux commandes :\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
-\i \cf0 	pierre@debian:~/T\'e9l\'e9chargements$ bunzip2 libusb-1.0.8.tar.bz2\
+\i 	pierre@debian:~/T\'e9l\'e9chargements$ bunzip2 libusb-1.0.8.tar.bz2\
 	pierre@debian:~/T\'e9l\'e9chargements$ tar xvf libusb-1.0.8.tar
 \i0 \
 \
