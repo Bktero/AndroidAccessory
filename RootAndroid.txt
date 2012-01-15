@@ -1,0 +1,21 @@
+http://www.llaumgui.com/post/bien-rooter-son-telephone-android
+--> Méthode normalement sûre pour rooter son telephone
+
+http://www.infos-du-net.com/actualite/dossiers/261-root-android-rom.html
+--> Dossier sur le root : instructif !
+
+Titanium Backup
+--> ce logiciel apparait souvent quand il s'agit de faire des sauvegardes
+
+
+http://forum.xda-developers.com/showthread.php?t=803682
+--> Superoneclick : logiciel que j'ai utilise pour rooter
+
+http://forum.frandroid.com/topic/29688-tuto-rooter-le-samsung-galaxy-teos-naos-samsung-gt-i5800/page__st__20
+--> il y a une premiere methode puis ca parle bcp de superOneClick
+
+http://www.arnakazim.com/article-156.html
+--> on retrouve les 2 méthodes du lien precedent
+
+http://streak.forumgratuit.fr/t1032-tuto-rooter-rom-22-dell-12821-via-superoneclick
+--> encore une utilisation de superOneClick
